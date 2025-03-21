@@ -78,4 +78,4 @@ python select.py --dataset_path <path_to_dataset> --scores_path <path_to_scores>
 
 After execution, the script generates the following output:
 
-- **subset.json**: A JSON file located at the specified `output_path`, containing the filtered subset of data.
+**subset.json**: A JSON file located at the specified `output_path`, containing the filtered subset of data.
