@@ -43,7 +43,7 @@ The script accepts three mandatory arguments via the command line:
 
 To run the score script, use the following format:
 ```bash
-bash python score_aysc.py --dataset_path ./data/dataset.json --model my_model --output_path ./output
+bash python score_aysc.py --dataset_path <path_to_dataset> --model <your_model> --output_path <output_file_path>
 ```
 
 
@@ -71,7 +71,7 @@ The script accepts four mandatory arguments via the command line:
 
 To run the script, use the following format:
 ```bash
-python select.py --dataset_path <path_to_dataset> --scores_path <path_to_scores> --output_path <output_file> --thresholds <threshold>
+python select.py --dataset_path <path_to_dataset> --scores_path <path_to_scores> --output_path <output_file_path> --thresholds <threshold>
 ```
 
 #### Output Files
