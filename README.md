@@ -65,13 +65,13 @@ The script accepts four mandatory arguments via the command line:
 | `--dataset_path` | str   | Yes      | Path to the dataset JSON file containing the full data.                     |
 | `--scores_path`  | str   | Yes      | Path to the scores JSON file containing average scores for each data item.  |
 | `--output_path`  | str   | Yes      | Path where the filtered subset will be saved as a JSON file.               |
-| `--thresholds`    | float  | Yes      | List of score thresholds used to filter the data (must be in ascending order). |
+| `--threshold`    | float  | Yes      | The score thresholds used to filter the data. |
 
 #### Example Command
 
 To run the script, use the following format:
 ```bash
-python select.py --dataset_path <path_to_dataset> --scores_path <path_to_scores> --output_path <output_file_path> --thresholds <threshold>
+python select.py --dataset_path <path_to_dataset> --scores_path <path_to_scores> --output_path <output_file_path> --threshold <threshold>
 ```
 
 #### Output Files
