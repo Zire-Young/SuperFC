@@ -6,7 +6,7 @@
 
 This repo contains rating and filtering codes and the high-quality function-calling dataset for SuperFC, a sustainable and strong function-calling agent.
 
-Paper: [SuperFC: Selective Data Utilization for a Sustainable and Effective Function-Calling Agent](./Yang%20等%20-%20SuperFC%20Selective%20Data%20Utilization%20for%20a%20Sustainable%20and%20Effective%20Function-Calling%20Agent.pdf)
+Paper: [SuperFC: Selective Data Utilization for a Sustainable and Effective Function-Calling Agent](https://ieeexplore.ieee.org/document/11228427)
 
 
 ## 📣 Introduction
